@@ -774,7 +774,7 @@ input::placeholder {
  color: #ffffff}
 
 
-input {
+.form-input {
 width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
