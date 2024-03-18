@@ -832,7 +832,9 @@ border-radius: 4px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-lin:focus{
+
+
+.in-wraper .subscribe-lin .button:focus{
 background-color: #404BBF;
 border: none;
 
