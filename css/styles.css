@@ -778,8 +778,7 @@ display: flex;
 gap: 24px;
 }
 
-input::placeholder {
- color: #ffffff}
+
 
 
 .form-input {
@@ -896,10 +895,6 @@ background-color: transparent;
 padding-left: 38px;
 outline: transparent;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-
-
 }
 
 .form-input:focus{
@@ -908,13 +903,23 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.icon-v{
+.icon-v-input{
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.form-input .icon-v:hover{
+    fill: #ffffff;
+}
+
+.form-input .icon-v:focus {
+    fill: #ffffff;
+}
+
+
 
 
 .wraper-p{
