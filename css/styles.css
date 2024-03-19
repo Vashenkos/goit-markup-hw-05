@@ -829,8 +829,25 @@ border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.subscribe-link:hover
+{
+background-color: #404bbf;
+bottom: none;
+
+}
+
+.subscribe-link:focus{
+background-color: #404bbf;
+bottom: none;
+
+}
+
+
 
 
 
@@ -840,18 +857,64 @@ border: none;
 
 }
 .batxx {
-    ransition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.batxx:hover{
-    fill: #ffffff;
+.batxx:focus{
+fill: #ffffff;
 
+}
+
+.form-one {
+margin-bottom: 8px;
+}
+
+
+.form-label{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: block;
+margin-bottom: 4px;
+
+
+}
+
+.imput-one {
+
+    position: relative;
+
+}
+
+.form-input {
+width: 100%;
+height: 40px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+background-color: transparent;
+padding-left: 38px;
+outline: transparent;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+
+}
+
+.form-input:focus{
+    background-color: #4D5AE5;
 }
 
 
 
-
-
+.icon-v{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 .wraper-p{
