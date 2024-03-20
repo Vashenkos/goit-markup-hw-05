@@ -737,7 +737,7 @@ animation: shake 1s;
 
 .nuz-fotera{
     display: flex;
-    justify-content: flex-end;
+    
 
 }
 
@@ -750,6 +750,9 @@ animation: shake 1s;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    display: flex;
+    margin-left: 23px;
+
 }
 .nuz-form{
     display: flex;
@@ -796,28 +799,7 @@ color: #ffffff;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/---------обгортка----//
 
 
 
