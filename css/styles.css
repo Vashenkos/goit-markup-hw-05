@@ -687,7 +687,7 @@ background-color: #31d0aa;
 
 
 /------Css анімація-----/
-.socmer{
+.socmer..bat-foo{
     cursor: pointer;
     width: 100px;
 }
@@ -695,6 +695,11 @@ background-color: #31d0aa;
 .socmer:hover {
     animation: shake 1s;
 }
+.bat-foo:hover{
+
+animation: shake 1s;
+}
+
 
 @keyframes shake {
     0% {
@@ -728,13 +733,13 @@ background-color: #31d0aa;
 }
 
 
+/-------Низ футера-------/
 
+.nuz-fotera{
+    display: flex;
+    justify-content: flex-end;
 
-
-
-
-
-
+}
 
 
 
@@ -787,6 +792,7 @@ color: #ffffff;
 }
 .bat-foo{
     margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 
@@ -883,7 +889,6 @@ text-align: center
 display: flex;
 gap: 24px;
 }
-
 
 
 
