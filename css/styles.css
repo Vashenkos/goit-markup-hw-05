@@ -761,10 +761,10 @@ animation: shake 1s;
 }
 
 .prosto-inp{
- width: 264px;
- height: 40px;
- border: 1px solid #ffffff;
- background-color: transparent;   
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: transparent;   
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
@@ -781,7 +781,7 @@ color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
