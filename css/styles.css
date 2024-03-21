@@ -913,8 +913,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.sam-inpu:focus{
-   stroke: #4D5AE5;?????
+.lab-inpu:focus{
+background-color: #4D5AE5;?????
 } 
 
 .inp-svg{
@@ -925,7 +925,13 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #4D5AE5;
 }
-
+.inp-svg:last-child {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2e2f42;
 
 
 
