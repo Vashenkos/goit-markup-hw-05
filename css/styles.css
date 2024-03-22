@@ -217,7 +217,7 @@ background-color: #404bbf;
 .main-section {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/people-office.jpg);
-або background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/people-office.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
@@ -684,10 +684,7 @@ background-color: #31d0aa;
 
 
 
-
-
-/------Css анімація-----/
-.socmer..bat-foo{
+.socmer.bat-foo{
     cursor: pointer;
     width: 100px;
 }
@@ -733,12 +730,8 @@ animation: shake 1s;
 }
 
 
-/-------Низ футера-------/
-
 .nuz-fotera{
-    display: flex;
-    
-
+display: flex;
 }
 
 
@@ -914,10 +907,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lab-inpu:focus{
-background-color: #4D5AE5;?????
+background-color: #4D5AE5;
 } 
 
-.inp-svg:{
+.inp-svg:last-child{
 position: absolute;
 left: 16px;
 top: 50%;
@@ -932,21 +925,4 @@ fill: #4D5AE5;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
