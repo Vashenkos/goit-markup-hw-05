@@ -911,7 +911,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .lab-inpu:focus {
 background-color: #4D5AE5;
-} 
+}
 
 .inp-svg {
 position: absolute;
@@ -921,7 +921,8 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #4D5AE5;
 }
-.inp-svg {
+
+.sam-inpu.inp-svg {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -929,6 +930,10 @@ fill: #4D5AE5;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
 }
+
+
+
+
 
 .lab-inpu {
 position: relative;
@@ -1028,8 +1033,15 @@ fill: #f4f4fd;
     
 }
 
+.sam-inpu input:focus{
+    border-color: #4D5AE5;
+    fill: #4D5AE5;
+}
 
+.form-div {
+margin-bottom: 16px;
 
+}
 
 
 
