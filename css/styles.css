@@ -1015,6 +1015,7 @@ fill: #f4f4fd;
 }
 
 .but-send {
+    margin: 0 auto;
     display: block;
     min-width: 169px;
     height: 56px;
