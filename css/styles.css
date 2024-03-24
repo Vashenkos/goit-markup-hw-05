@@ -856,12 +856,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.close.icon-butt:hover svg {
-    fill: #ffffff;
+button .icon-butt:hover {
+fill: #ffffff;
 }
 
-.close.icon-butt:focus svg {
-    fill: #ffffff;
+button .icon-butt:focus {
+fill: #ffffff;
 }
 
 .mod-p {
