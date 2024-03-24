@@ -987,7 +987,8 @@ fill: transparent;
 }
 
 
-.privacy{
+.privacy {
+    color: #4D5AE5;
     width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1000,7 +1001,7 @@ fill: transparent;
 }
 
 
-.check__input:checked+.check-option {
+.check__input:checked {
     background-color: #404BBF;
 border: none;
 fill: #f4f4fd;
