@@ -1006,11 +1006,19 @@ fill: #f4f4fd;
 }
 
 
+input:checked + .check__box{
+    background-color: var(#404bbf);
+border: none;
+fill: var (#f4f4fd);
+
+}
+
+
  .check__input:checked+
 
 
 .privacy {
-    color: #4D5AE5;
+    color: var (#4D5AE5);
 
 }
 
