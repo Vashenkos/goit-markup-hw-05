@@ -1054,7 +1054,7 @@ position: relative;
 }
 
 
-input:checked + span {
+.modal-input:checked + .check-option .check__box {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
