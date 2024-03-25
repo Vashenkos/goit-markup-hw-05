@@ -1008,13 +1008,6 @@ fill: #f4f4fd;
 }
 
 
-input:checked + .check__box{
-    background-color: #404bbf;
-border: none;
-fill: #f4f4fd;
-
-}
-
 
  .check__input:checked+
 
@@ -1061,7 +1054,7 @@ position: relative;
 }
 
 
-input:checked+span {
+input:checked + span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
