@@ -986,7 +986,6 @@ fill: transparent;
 
 .privacy {
     color: #4D5AE5;
-    width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 2px;
@@ -997,13 +996,6 @@ fill: transparent;
         fill: transparent;
 }
 
-
-
-
-.privacy {
-    color: var (#4D5AE5);
-
-}
 
 .but-send {
     margin: 0 auto;
@@ -1049,6 +1041,12 @@ margin-bottom: 16px;
 }
 
 
-
-
-
+/* 
+.lab-inpu .sam-inpu>.inp-svg:hover{
+    color: #404bbf;
+    border: none;
+}
+.lab-inpu .sam-inpu> .inp-svg:focus {
+    color: #404bbf;
+    border: none;
+} */
