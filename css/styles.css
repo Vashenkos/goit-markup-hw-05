@@ -1009,9 +1009,9 @@ fill: #f4f4fd;
 
 
 input:checked + .check__box{
-    background-color: var(#404bbf);
+    background-color: #404bbf;
 border: none;
-fill: var (#f4f4fd);
+fill: #f4f4fd;
 
 }
 
@@ -1053,18 +1053,10 @@ fill: var (#f4f4fd);
 .form-div-faif {
 margin-bottom: 24px;
 position: relative;
-width: 360px;
-height: 16px;
 }
 
 
 .form-div-for {
     margin-top: 16px;
 }
-
-
-
-
-
-
 
