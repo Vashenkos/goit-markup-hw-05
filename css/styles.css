@@ -844,9 +844,7 @@ background-color: #404BBF;
 border: none;
 
 } 
-
-
-.close:focus{
+.close:focus {
 background-color: #404BBF;
 border: none;
 } 
@@ -896,9 +894,6 @@ margin-bottom: 16px;
 
 }
 
-.form-div{
-    
-}
 
 .lab-inpu {
 position: relative;
@@ -1003,11 +998,6 @@ fill: transparent;
 }
 
 
-
-
-
-
- .check__input:checked+
 
 
 .privacy {
