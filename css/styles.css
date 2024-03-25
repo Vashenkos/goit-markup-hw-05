@@ -868,7 +868,10 @@ fill: #ffffff;
         border: none;
         fill: #ffffff;
 }
-
+.button:hover>.close,
+.button:focus>.close {
+    fill: #ffffff;
+}
 
 
 .mod-p {
