@@ -746,8 +746,7 @@ display: flex;
     display: flex;
 
 }
-.nuz-form{
-    display: flex;
+.nuz-form {
     gap: 24px;
 
 }
@@ -1041,12 +1040,36 @@ margin-bottom: 16px;
 }
 
 
-/* 
-.lab-inpu .sam-inpu>.inp-svg:hover{
-    color: #404bbf;
-    border: none;
+#backdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+
 }
-.lab-inpu .sam-inpu> .inp-svg:focus {
-    color: #404bbf;
-    border: none;
-} */
+
+
+.is-open {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: #fff;
+padding: 20px;
+border-radius: 20px;
+z-index: 1000;
+display: none;
+}
+
+
+
+#is-open:checked + #backdrop,
+#is-open:checked + #backdrop + #is-open{
+    display: block;
+}
+
+
+
