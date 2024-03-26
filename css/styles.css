@@ -730,11 +730,6 @@ animation: shake 1s;
 }
 
 
-.nuz-fotera{
-display: flex;
-}
-
-
 
 .subs-p{
     margin-bottom: 16px;
@@ -748,6 +743,7 @@ display: flex;
 }
 .nuz-form {
     gap: 24px;
+
 
 }
 
@@ -782,6 +778,7 @@ color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 
 }
 .bat-foo{
