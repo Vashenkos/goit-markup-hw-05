@@ -854,11 +854,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.button .icon-butt:hover {
+.close .icon-butt:hover {
 fill: #ffffff;
 }
 
-.button .icon-butt:focus {
+.close .icon-butt:focus {
 fill: #ffffff;
 } 
 /* 
