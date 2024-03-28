@@ -743,7 +743,7 @@ animation: shake 1s;
 }
 .nuz-form {
     gap: 24px;
-
+display: flex;
 
 }
 
@@ -1068,5 +1068,5 @@ display: none;
     display: block;
 }
 
-
+.nuz-fotera
 
